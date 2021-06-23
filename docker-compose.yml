@@ -9,7 +9,7 @@ services:
     container_name: "prometheus"
     hostname: "prometheus"
     ports:
-      - "9090:9090"
+      - "9091:9090"
     links:    
       - chintan-service
 
@@ -28,3 +28,4 @@ services:
     hostname: "chintan-springboot-prometheus"
     ports:
       - "8080:8080"
+      - "8081:8081"
